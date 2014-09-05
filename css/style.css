@@ -876,7 +876,11 @@ input, textarea{
 .ppDescription{
 	clear:both;
 }
-
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
 }
 #check-Sub{
 	display: none;
