@@ -874,8 +874,8 @@ input, textarea{
 	position: relative;
 	overflow: auto;
 	float: left;
-	padding-right: 10%;
-	padding-left:23.5%;
+	padding-right: 15%;
+	padding-left:29%;
 }
 
 .imgWrap li{
@@ -927,11 +927,8 @@ input, textarea{
   opacity: 1;
 }
 
-.ppDescription{
-	margin: 0 auto;
+.ppDescription{	
 	clear:both;
-	width: 45%;
-
 }
 .float-left{
 	float: left;
