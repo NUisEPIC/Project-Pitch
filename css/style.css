@@ -873,7 +873,9 @@ input, textarea{
 .imgWrap{
 	position: relative;
 	overflow: auto;
-	padding-left: 24%;
+	float: left;
+	padding-right: 10%;
+	padding-left:23.5%;
 }
 
 .imgWrap li{
@@ -883,6 +885,18 @@ input, textarea{
 .imgWrap ul li{
 	float: left;
 }
+
+.imgWrap ul .slide{
+	width: 75%;
+	overflow: hidden;
+}
+
+
+#fphoto{
+	border: 2px solid black;
+}
+
+
 
 .dots {
   position: absolute;
@@ -898,24 +912,26 @@ input, textarea{
   height: 10px;
   margin: 0 4px;
   text-indent: -999em;
-  border: 2px solid #fff;
+  border: 2px solid rgb(237,45,58);
   border-radius: 6px;
   cursor: pointer;
-  opacity: 1;
-  background: #333;
+  opacity: .4;
+  background: rgba(255,255,255,.4);
   -webkit-transition: background .5s, opacity .5s;
   -moz-transition: background .5s, opacity .5s;
   transition: background .5s, opacity .5s;
 }
 
 .dots li.active {
-  background: #fff;
+  background: rgb(237,45,58);
   opacity: 1;
 }
 
 .ppDescription{
-	float:left;
+	margin: 0 auto;
 	clear:both;
+	width: 45%;
+
 }
 .float-left{
 	float: left;
