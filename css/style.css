@@ -160,7 +160,9 @@ input, textarea{
 .padding-20{
 	margin-top: 20%;
 }
-
+.padding-1{
+	padding-top: 1%;
+}
 .padding-all-5{
 	padding:1%;
 }
@@ -762,7 +764,7 @@ input, textarea{
 	border-bottom: #232323!important;
 }
 .nav{
-	width:100%;
+	width:98%;
 	color:#000;
 	/*background-color:#3FC;*/
 }
@@ -773,8 +775,11 @@ input, textarea{
 	overflow:hidden;
 	color:#FFF;
 	/*backgroun#d-color:#3FC;*/
-	left: 20px;
 }
+.nav li *{
+	margin-left: 65px;
+}
+
 .navbar .nav > li > a {
     color:  #232323;
 }
@@ -807,9 +812,7 @@ input, textarea{
     -o-transition: all 0.8s ease-in;
     /* Standard */
     transition: all 0.8s ease-in;
-}
-#ppHidden{
-	left:100px;
+
 }
 /* =======================================================
    3.HOME_PAGE-DESKTOP
@@ -831,7 +834,7 @@ input, textarea{
 	background-size: cover;
 }
 #home-page .logoImg {
-	margin-top:12%;
+	margin-top:8%;
 	margin-left:auto;
 	margin-right:auto;
 	width: 40%;
@@ -858,10 +861,10 @@ input, textarea{
 	padding-top:6%;
 	padding-bottom:0;
 	position: relative;
+	z-index: 8;
 	overflow:hidden;	
 	background-color:#FFF;
 }
-
 .mission-page .mission-wrapper {
 	width:99%;
 	margin:auto;
@@ -870,17 +873,15 @@ input, textarea{
 	/*background-color:#3FC;*/
 }
 .video-box{
-	float:left;
 	width: 500px;
 }
-.ppDescription{
-	clear:both;
+.video-box *{
+	margin-left: 50px;
 }
-.float-left{
-	float: left;
+.newsletter{
+	margin-left: 80px;
+	text-align:center;
 }
-.float-right{
-	float: right;
 }
 #check-Sub{
 	display: none;
@@ -949,16 +950,25 @@ input, textarea{
    6.INFO_SESSION-DESKTOP
 ========================================================== */
 
-.calendar {
-	width: 350px;
-    height: 350px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px; 
-    border: 15px solid rgba(237,45,58,.9);
-    border-top: 80px solid rgba(237,45,58,.9);
-    background-color: white;
-    padding-top: 10px;
+.circle {
+	width: 400px;
+    height: 400px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px; 
+    background-color: rgba(237,45,58,.89);
+    padding-top: 90px;
+}
+.circles .text-left	{
+	position: relative;
+	left: 75px;
+	color: rgba(255,255,255,1);
+}	
+.circles .text-right{
+	position: relative;
+	right: 75px;
+	bottom: 100;
+	color: rgba(255,255,255,1);
 }
 
 
@@ -988,7 +998,7 @@ input, textarea{
 	width:70%;
 	overflow-y: scroll!important;
 	overflow-x:hidden;
-	height:500px;
+	height:450px;
 	margin-right: auto;
 	margin-left: auto;
 	/*background-color: #3df;*/
