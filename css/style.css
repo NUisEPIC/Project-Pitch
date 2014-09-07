@@ -19,8 +19,8 @@ body{
 	font-family: 'Lato', sans-serif;
 	font-size:1em;
 	line-height:28px;
-
 }
+
 /* ========================================================
    0B.TYPOGRAPHY-MOBILE
 =========================================================== */
@@ -160,9 +160,7 @@ input, textarea{
 .padding-20{
 	margin-top: 20%;
 }
-.padding-1{
-	padding-top: 1%;
-}
+
 .padding-all-5{
 	padding:1%;
 }
@@ -330,7 +328,7 @@ input, textarea{
 	width:100%;
 	height:100%;
 	position: absolute;
-	background: url(../images/bg.jpg) no-repeat center center fixed;
+	background: url(../images/projectpitchcohort.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -764,7 +762,7 @@ input, textarea{
 	border-bottom: #232323!important;
 }
 .nav{
-	width:98%;
+	width:100%;
 	color:#000;
 	/*background-color:#3FC;*/
 }
@@ -775,11 +773,8 @@ input, textarea{
 	overflow:hidden;
 	color:#FFF;
 	/*backgroun#d-color:#3FC;*/
+	left: 20px;
 }
-.nav li *{
-	margin-left: 65px;
-}
-
 .navbar .nav > li > a {
     color:  #232323;
 }
@@ -812,7 +807,9 @@ input, textarea{
     -o-transition: all 0.8s ease-in;
     /* Standard */
     transition: all 0.8s ease-in;
-
+}
+#ppHidden{
+	left:100px;
 }
 /* =======================================================
    3.HOME_PAGE-DESKTOP
@@ -827,14 +824,14 @@ input, textarea{
 	width:100%;
 	height:100%;
 	position: absolute;
-	background: url(../images/bg.jpg) no-repeat center center fixed;
+	background: url(../images/projectpitchcohort.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 #home-page .logoImg {
-	margin-top:8%;
+	margin-top:12%;
 	margin-left:auto;
 	margin-right:auto;
 	width: 40%;
@@ -861,10 +858,10 @@ input, textarea{
 	padding-top:6%;
 	padding-bottom:0;
 	position: relative;
-	z-index: 8;
 	overflow:hidden;	
 	background-color:#FFF;
 }
+
 .mission-page .mission-wrapper {
 	width:99%;
 	margin:auto;
@@ -873,15 +870,18 @@ input, textarea{
 	/*background-color:#3FC;*/
 }
 .video-box{
+	float: right;
 	width: 500px;
 }
-.video-box *{
-	margin-left: 50px;
+.ppDescription{
+	float:left;
+	clear:both;
 }
-.newsletter{
-	margin-left: 80px;
-	text-align:center;
+.float-left{
+	float: left;
 }
+.float-right{
+	float: right;
 }
 #check-Sub{
 	display: none;
@@ -950,30 +950,21 @@ input, textarea{
    6.INFO_SESSION-DESKTOP
 ========================================================== */
 
-.circle {
-	width: 400px;
-    height: 400px;
-    -webkit-border-radius: 200px;
-    -moz-border-radius: 200px;
-    border-radius: 200px; 
-    background-color: rgba(237,45,58,.89);
-    padding-top: 90px;
-}
-.circles .text-left	{
-	position: relative;
-	left: 75px;
-	color: rgba(255,255,255,1);
-}	
-.circles .text-right{
-	position: relative;
-	right: 75px;
-	bottom: 100;
-	color: rgba(255,255,255,1);
+.calendar {
+	width: 350px;
+    height: 350px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+    border: 15px solid rgba(237,45,58,.9);
+    border-top: 80px solid rgba(237,45,58,.9);
+    background-color: white;
+    padding-top: 10px;
 }
 
 
 /* =======================================================
-   7.EVENTS-DESKTOP
+   7.PROGRAM-DESKTOP
 ========================================================== */
 .events-page {
 	-webkit-background-size: cover;
@@ -998,7 +989,7 @@ input, textarea{
 	width:70%;
 	overflow-y: scroll!important;
 	overflow-x:hidden;
-	height:450px;
+	height:500px;
 	margin-right: auto;
 	margin-left: auto;
 	/*background-color: #3df;*/
