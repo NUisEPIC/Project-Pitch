@@ -116,7 +116,7 @@ input, textarea{
 	text-align: center !important;
 }
 .text-left{
-	text-align:center;
+	text-align:left;
 }
 .text-right{
 	text-align:center;
@@ -308,13 +308,7 @@ input, textarea{
     /* Standard */
     transition: all 0.8s ease-in;
 }
-.iframe-vid{
-	margin:0 ;
-	margin-top: 50px ;
-	text-align: left;
-	width:300px;
-	height:200px;
-}
+
 /* =======================================================
    3.HOME_PAGE-MOBILE
 ========================================================== */
@@ -718,10 +712,8 @@ input, textarea{
 	height:15%;
 }
 .iframe-vid{
-	margin:0 ;
-	text-align: left;
-	width:600px;
-	height:340px;
+	margin:0 auto;
+	text-align: right;
 }
 .img-mobile{
 	width:80%;
@@ -929,7 +921,9 @@ input, textarea{
 
 .ppDescription{	
 	clear:both;
+	float: left;
 }
+
 .float-left{
 	float: left;
 }
@@ -1098,5 +1092,4 @@ input, textarea{
 	overflow: hidden;
 	padding-top:2%;
 	background-color:#232323;
-}
 }
