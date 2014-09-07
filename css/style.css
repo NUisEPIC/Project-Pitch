@@ -116,7 +116,7 @@ input, textarea{
 	text-align: center !important;
 }
 .text-left{
-	text-align:center;
+	text-align:left;
 }
 .text-right{
 	text-align:center;
@@ -308,13 +308,7 @@ input, textarea{
     /* Standard */
     transition: all 0.8s ease-in;
 }
-.iframe-vid{
-	margin:0 ;
-	margin-top: 50px ;
-	text-align: left;
-	width:300px;
-	height:200px;
-}
+
 /* =======================================================
    3.HOME_PAGE-MOBILE
 ========================================================== */
@@ -718,10 +712,8 @@ input, textarea{
 	height:15%;
 }
 .iframe-vid{
-	margin:0 ;
-	text-align: left;
-	width:600px;
-	height:340px;
+	margin:0 auto;
+	text-align: right;
 }
 .img-mobile{
 	width:80%;
@@ -869,14 +861,69 @@ input, textarea{
 	margin-top:1%;
 	/*background-color:#3FC;*/
 }
-.video-box{
-	float: right;
-	width: 500px;
+
+.imgWrap{
+	position: relative;
+	overflow: auto;
+	float: left;
+	padding-right: 15%;
+	padding-left:29%;
 }
-.ppDescription{
-	float:left;
+
+.imgWrap li{
+	list-style: none;
+}
+
+.imgWrap ul li{
+	float: left;
+}
+
+.imgWrap ul .slide{
+	width: 75%;
+	overflow: hidden;
+}
+
+
+#fphoto{
+	border: 2px solid black;
+}
+
+
+
+.dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  text-align: center;
+}
+
+.dots li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 2px solid rgb(237,45,58);
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: .4;
+  background: rgba(255,255,255,.4);
+  -webkit-transition: background .5s, opacity .5s;
+  -moz-transition: background .5s, opacity .5s;
+  transition: background .5s, opacity .5s;
+}
+
+.dots li.active {
+  background: rgb(237,45,58);
+  opacity: 1;
+}
+
+.ppDescription{	
 	clear:both;
+	float: left;
 }
+
 .float-left{
 	float: left;
 }
@@ -1045,5 +1092,4 @@ input, textarea{
 	overflow: hidden;
 	padding-top:2%;
 	background-color:#232323;
-}
 }
