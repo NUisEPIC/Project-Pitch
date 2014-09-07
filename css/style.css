@@ -19,8 +19,8 @@ body{
 	font-family: 'Lato', sans-serif;
 	font-size:1em;
 	line-height:28px;
-}
 
+}
 /* ========================================================
    0B.TYPOGRAPHY-MOBILE
 =========================================================== */
@@ -328,7 +328,7 @@ input, textarea{
 	width:100%;
 	height:100%;
 	position: absolute;
-	background: url(../images/projectpitchcohort.jpg) no-repeat center center fixed;
+	background: url(../images/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -824,7 +824,7 @@ input, textarea{
 	width:100%;
 	height:100%;
 	position: absolute;
-	background: url(../images/projectpitchcohort.jpg) no-repeat center center fixed;
+	background: url(../images/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -870,11 +870,10 @@ input, textarea{
 	/*background-color:#3FC;*/
 }
 .video-box{
-	float: right;
+	float:left;
 	width: 500px;
 }
 .ppDescription{
-	float:left;
 	clear:both;
 }
 .float-left{
@@ -964,7 +963,7 @@ input, textarea{
 
 
 /* =======================================================
-   7.PROGRAM-DESKTOP
+   7.EVENTS-DESKTOP
 ========================================================== */
 .events-page {
 	-webkit-background-size: cover;
