@@ -16,8 +16,10 @@ h1,h2,h3,h4,h5,h6,p,a{
 	text-decoration: none;
 }
 .error-message{color:#c43b1d;display:none;font-size:13px}
-.logo {
-	display: block;
+
+#logo {
+	display:block;
+	height: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
