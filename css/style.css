@@ -216,6 +216,9 @@ input, textarea{
 .hr-80{
 	width:80%;
 }
+.hr-60{
+	width:60%;
+}
 .img-40{
 	width:40%;
 	height:40%;
@@ -710,6 +713,9 @@ input, textarea{
 .hr-80{
 	width:80%;
 }
+.hr-60{
+	width:60%;
+}
 .img-40{
 	width:40%;
 	height:40%;
@@ -850,14 +856,14 @@ input, textarea{
 	/*background-color:#3df;*/
 }
 /* =======================================================
-   3.MISSION_PAGE-DESKTOP
+   4.MISSION_PAGE-DESKTOP
 ========================================================== */
 .mission-page {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top:6%;
+	padding-top:3%;
 	padding-bottom:0;
 	position: relative;
 	overflow:hidden;	
@@ -870,6 +876,70 @@ input, textarea{
 	overflow:hidden;
 	margin-top:1%;
 	/*background-color:#3FC;*/
+}
+
+.ppDescription{	
+	clear: both;
+	float: left;
+	padding-left:27%;
+	padding-right:27%;
+	padding-top:3%;
+}
+
+.bigidea{
+	margin: 0 auto;
+	text-align:center;
+}
+
+#check-Sub{
+	display: none;
+}
+
+/* =======================================================
+   5.INFO_SESSION-DESKTOP
+========================================================== */
+
+.calendar {
+	width: 350px;
+    height: 350px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+    border: 15px solid rgba(237,45,58,.9);
+    border-top: 80px solid rgba(237,45,58,.9);
+    background-color: white;
+    padding-top: 10px;
+}
+
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+
+/* =======================================================
+   6.ARCHIVES-DESKTOP
+========================================================== */
+
+.archive-page{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top:2.5%;
+	padding-bottom:0;
+	position: relative;
+	overflow:hidden;	
+}
+.archive-page .archive-wrapper{
+	width:99%;
+	margin:auto;
+	overflow:hidden;
+	margin-top:1%;
+	padding-bottom:2.5%;
+	border: 2px solid rgba(0,0,0,.1);
+	background-image: url('../images/bg2.jpg');
 }
 
 .imgWrap{
@@ -891,10 +961,6 @@ input, textarea{
 .imgWrap ul .slide{
 	width: 75%;
 	overflow: hidden;
-}
-
-#fphoto{
-	border: 2px solid black;
 }
 
 .dots {
@@ -926,18 +992,15 @@ input, textarea{
   opacity: 1;
 }
 
-.ppDescription{	
-	clear: both;
-	float: left;
-}
-
-.learnmore{
+.archive-button{
 	margin: 0 auto;
 }
 
 .past-logo{
 	width:100px;
+	padding-bottom:6%;
 }
+
 .btn-round{
 	background-color: #fff;
 	color:#000;
@@ -945,90 +1008,10 @@ input, textarea{
 	width:100px;
 	padding: 2px 10px 2px 10px;
 	border: 2px solid #000;
-	-webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+	-webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
 }
-
-.past-cohort{
-	border: 2px solid rgba(0,0,0,.1);
-	background-image: url('../images/bg2.jpg');
-}
-
-.float-left{
-	float: left;
-}
-.float-right{
-	float: right;
-}
-#check-Sub{
-	display: none;
-}
-/* =======================================================
-   4.PROJECT_PAGE-DESKTOP
-========================================================== */
-.project-page {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding-top:6%;
-	padding-bottom:2%;
-	position: relative;
-	z-index: 8;
-	overflow:hidden;	
-	background-color:#FFF;
-}
-.project-page .project-wrapper {
-	width:99%;
-	margin:auto;
-	overflow:hidden;
-	margin-top:1%;
-	/*background-color:#3FC;*/
-}
-
-/* =======================================================
-   5.FAQ-DESKTOP
-========================================================== */
-.faq-page {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding-top:3%;
-	padding-bottom:0%;
-	position: relative;
-	z-index: 8;
-	overflow:hidden;	
-	background-color:#FFF;
-}
-.faq-page .faq-wrapper {
-	width:99%;
-	margin:auto;
-	overflow:hidden;
-	margin-top:1%;
-	/*background-color:#3FC;*/
-}
-#faqs h4	{ cursor:pointer; }
-#faqs h4.active	{ color:#d74646; }
-#faqs div { height:0; overflow:hidden; position:relative; }
-#faqs div p	{ padding:0; margin-bottom:15px; }
-/* =======================================================
-   6.INFO_SESSION-DESKTOP
-========================================================== */
-
-.calendar {
-	width: 350px;
-    height: 350px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px; 
-    border: 15px solid rgba(237,45,58,.9);
-    border-top: 80px solid rgba(237,45,58,.9);
-    background-color: white;
-    padding-top: 10px;
-}
-
 
 /* =======================================================
    7.PROGRAM-DESKTOP
@@ -1056,7 +1039,7 @@ input, textarea{
 	width:70%;
 	overflow-y: scroll!important;
 	overflow-x:hidden;
-	height:500px;
+	height:550px;
 	margin-right: auto;
 	margin-left: auto;
 	/*background-color: #3df;*/
