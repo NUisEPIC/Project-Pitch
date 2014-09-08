@@ -1079,14 +1079,13 @@ input, textarea{
 	position: relative;
 	z-index: 8;
 	overflow:hidden;	
-	background-color:#FFF;
+	background-color: #FFF;
 }
 .contact-page .contact-wrapper {
 	width:99%;
 	margin:auto;
 	overflow:hidden;
 	margin-top:1%;
-	/*background-color:#3FC;*/
 }
 /* =======================================================
    10.FOOTER-DESKTOP
