@@ -3,7 +3,7 @@ $field_name = $_POST['name'];
 $field_email = $_POST['email'];
 $field_message = $_POST['comments'];
 
-$mail_to = 'projectpitchatnu@gmail.com';
+$mail_to = 'michaelchen2015@u.northwestern.edu';
 $mail_to2 = 'contact@nuisepic.com';
 $subject = '[PP] Message from Visitor '.$field_name;
 
@@ -25,7 +25,7 @@ if ($mail_status && $mail_status2) { ?>
 }
 else { ?>
 	<script language="javascript" type="text/javascript">
-		alert('Message failed. Please, send an email to projectpitchatnu@gmail.com');
+		alert('Message failed. Please, send an email to michaelchen2015@u.northwestern.edu');
 		window.location = '../index.html';
 	</script>
 <?php

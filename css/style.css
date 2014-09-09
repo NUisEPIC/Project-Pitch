@@ -551,6 +551,9 @@ h6{
 p{
 	font-size:20px;
 }
+a{
+	
+}
 a:hover{
 	color:rgb(237,45,58) !important;
 	text-decoration:none;
@@ -608,7 +611,6 @@ input, textarea{
 }
 .text-left{
 	text-align:left !important;
-	margin: 0 auto;
 }
 .text-right{
 	text-align:right;
@@ -748,7 +750,6 @@ input, textarea{
 	background-color:#FFF;
 	border-color:#232323;
 	border-bottom: #232323!important;
-
 	color:#000;
 	/* Firefox */
     -moz-transition: all 0.5s ease-in;
@@ -776,10 +777,6 @@ input, textarea{
 	color:#FFF;
 	/*backgroun#d-color:#3FC;*/
 }
-.nav li *{
-	margin-left: 65px;
-}
-
 .navbar .nav > li > a {
     color:  #232323;
 }
@@ -812,7 +809,6 @@ input, textarea{
     -o-transition: all 0.8s ease-in;
     /* Standard */
     transition: all 0.8s ease-in;
-
 }
 /* =======================================================
    3.HOME_PAGE-DESKTOP
@@ -873,15 +869,8 @@ input, textarea{
 	/*background-color:#3FC;*/
 }
 .video-box{
-	width: 500px;
-}
-.video-box *{
-	margin-left: 50px;
-}
-.newsletter{
-	margin-left: 80px;
-	text-align:center;
-}
+	width:500px;
+	margin:0 auto;
 }
 #check-Sub{
 	display: none;
@@ -947,33 +936,7 @@ input, textarea{
 #faqs div { height:0; overflow:hidden; position:relative; }
 #faqs div p	{ padding:0; margin-bottom:15px; }
 /* =======================================================
-   6.INFO_SESSION-DESKTOP
-========================================================== */
-
-.circle {
-	width: 400px;
-    height: 400px;
-    -webkit-border-radius: 200px;
-    -moz-border-radius: 200px;
-    border-radius: 200px; 
-    background-color: rgba(237,45,58,.89);
-    padding-top: 90px;
-}
-.circles .text-left	{
-	position: relative;
-	left: 75px;
-	color: rgba(255,255,255,1);
-}	
-.circles .text-right{
-	position: relative;
-	right: 75px;
-	bottom: 100;
-	color: rgba(255,255,255,1);
-}
-
-
-/* =======================================================
-   7.EVENTS-DESKTOP
+   6.EVENTS-DESKTOP
 ========================================================== */
 .events-page {
 	-webkit-background-size: cover;
@@ -995,16 +958,16 @@ input, textarea{
 	/*background-color:#3FC;*/
 }
 .events-box{
-	width:70%;
+	width:50%;
 	overflow-y: scroll!important;
 	overflow-x:hidden;
-	height:450px;
+	height:400px;
 	margin-right: auto;
 	margin-left: auto;
 	/*background-color: #3df;*/
 }  
 /* =======================================================
-   8.BLOG-DESKTOP
+   7.BLOG-DESKTOP
 ========================================================== */
 .speaker-page {
 	-webkit-background-size: cover;
@@ -1026,7 +989,7 @@ input, textarea{
 	/*background-color:#3FC;*/
 }
 /* =======================================================
-   9.CONTACT-DESKTOP
+   8.CONTACT-DESKTOP
 ========================================================== */
 .contact-page {
 	-webkit-background-size: cover;
@@ -1048,7 +1011,7 @@ input, textarea{
 	/*background-color:#3FC;*/
 }
 /* =======================================================
-   10.FOOTER-DESKTOP
+   9.FOOTER-DESKTOP
 ========================================================== */
 .footer-pg{
 	overflow: hidden;
