@@ -968,59 +968,19 @@ input, textarea{
 	margin:auto;
 	overflow:hidden;
 	margin-top:1%;
-	padding-bottom:2.5%;
+	padding-bottom:4%;
 	border: 2px solid rgba(0,0,0,.1);
 	background-image: url('../images/bg2.jpg');
 }
 
-.imgWrap{
-	position: relative;
-	overflow: auto;
-	float: left;
-	padding-right: 15%;
-	padding-left:29%;
+#owl-demo .item{
+  margin: 3px;
 }
 
-.imgWrap li{
-	list-style: none;
-}
-
-.imgWrap ul li{
-	float: left;
-}
-
-.imgWrap ul .slide{
-	width: 75%;
-	overflow: hidden;
-}
-
-.dots {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 20px;
-  text-align: center;
-}
-
-.dots li {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 0 4px;
-  text-indent: -999em;
-  border: 2px solid rgb(237,45,58);
-  border-radius: 6px;
-  cursor: pointer;
-  opacity: .4;
-  background: rgba(255,255,255,.4);
-  -webkit-transition: background .5s, opacity .5s;
-  -moz-transition: background .5s, opacity .5s;
-  transition: background .5s, opacity .5s;
-}
-
-.dots li.active {
-  background: rgb(237,45,58);
-  opacity: 1;
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .archive-button{
@@ -1029,7 +989,7 @@ input, textarea{
 
 .past-logo{
 	width:100px;
-	padding-bottom:6%;
+	padding-bottom:14%;
 }
 
 .btn-round{

@@ -21,6 +21,13 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Owl Carousel -->
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
   </head>
 
   <body>
@@ -37,10 +44,10 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a class="visible-login" href="#mission-page">About</a></li>
-            <li><a class="visible-login" href="#speaker-page">Program</a></li>
+            <li><a class="visible-login" href="#archive-page">Archives</a></li>
             <li id="exploreEpic"><a id="epic-switch" class="visible-login text-bold" href="javascript:void(0)">- Explore EPIC -</a></li>
-            <li><a class="visible-login" href="submit.html">Apply</a></li>            
-            <li><a class="visible-login" href="#archive-page">Archives</a></li>   
+            <li><a class="visible-login" href="#speaker-page">Program</a></li>
+            <li><a class="visible-login" href="submit.html">Apply</a></li>   
             <li id="nuvcHidden" style="display:none"><a class="hidden-login text-white" href="http://www.nuisepic.com">EPIC</a></li>
             <li id="epicHidden" style="display:none"><a id="epic-switch-back" class="text-white hidden-login text-bold" href="javascript:void(0)">- Return to Main -</a></li>
             <li id="ppHidden" style="display:none"><a class="hidden-login text-white " href="http://nuventurechallenge.nuisepic.com">NUVC</a></li>  
@@ -61,7 +68,6 @@
       <div class="row">
         <div class="col-md-12">
             <h2 class="text-bold">WHO ARE WE?</h2>
-            <br/>
           </div><!--end col-md-12-->
       </div><!--end row-->
       <br/><br/>
@@ -172,15 +178,15 @@
               <br/>
           </div>
         <!--end row--></div>
-        <div class="imgWrap">
-          <ul>
-            <li><div class="slide"><img src="images/slideshow/image1.jpg" class= "img-responsive"></div></li>
-            <li><div class="slide"><img src="images/slideshow/image2.jpg" class= "img-responsive"></div></li>
-            <li><div class="slide"><img src="images/slideshow/image9.JPG" class= "img-responsive"></div></li>
-            <li><div class="slide"><img src="images/slideshow/image10.jpg" class= "img-responsive"></div></li>
-            <li><div class="slide"><img src="images/slideshow/image12.jpg" class= "img-responsive"></div></li>
-            <li><div class="slide"><img src="images/slideshow/image13.jpg" class= "img-responsive"></div></li>
-          </ul>
+        <div id="owl-demo" class="owl-carousel owl-theme">
+          <div class="item" ><img src="images/slideshow/image1.jpg" ></div>
+          <div class="item" ><img src="images/slideshow/image2.jpg" ></div>
+          <div class="item" ><img src="images/slideshow/image3.jpg" ></div>
+          <div class="item" ><img src="images/slideshow/image4.jpg" ></div>
+          <div class="item" ><img src="images/slideshow/image5.jpg" ></div>
+          <div class="item" ><img src="images/slideshow/image6.jpg" ></div>
+          <div class="item" ><img src="images/slideshow/image10.jpg" ></div>
+          <div class="item" ><img src="images/slideshow/image11.jpg" ></div>
         </div>
         <div class="row">
         <div class="col-md-2 col-md-offset-5">
@@ -189,7 +195,7 @@
         </div>        
         <div class="col-md-4 col-md-offset-4">
           <div class="text-center archive-button">
-            <a button class="btn-round" type="button" href="http://projectpitch.nuisepic.com">Y1 WINTER2014</a>
+            <a button class="btn-round" type="button" href="http://projectpitch.nuisepic.com">WINTER2014</a>
           </div>
         </div>
       </div><!--end archive-wrapper-->
@@ -679,8 +685,20 @@
     ga('create', 'UA-47377616-1', 'nuisepic.com');
     ga('send', 'pageview');
 
-    </script> 
-    <script src="js/unslider.min.js"></script>
-    <script type="text/javascript" src="js/project.js"></script>
+    </script>
+    <!-- Include js plugin -->
+    <script src="owl-carousel/owl.carousel.js"></script>
+    <script>
+    $(document).ready(function() {
+ 
+    $("#owl-demo").owlCarousel({
+ 
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+ 
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3] });
+    });
+    </script>
   </body>
 </html>
