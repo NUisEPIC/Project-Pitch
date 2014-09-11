@@ -1027,6 +1027,8 @@ input, textarea{
 	/*background-color:#3FC;*/
 }
 .events-box{
+	padding: 20px 30px 0 20px;
+	background-color:rgba(244,244,244,1);
 	width:70%;
 	overflow-y: scroll!important;
 	overflow-x:hidden;
@@ -1035,6 +1037,7 @@ input, textarea{
 	margin-left: auto;
 	/*background-color: #3df;*/
 }  
+
 /* =======================================================
    8.BLOG-DESKTOP
 ========================================================== */
