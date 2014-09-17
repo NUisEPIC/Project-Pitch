@@ -1,0 +1,17 @@
+body {
+	background-color: #000;
+	padding-top:4%;
+}
+
+img{
+	margin: 0 auto;
+	text-align:center;
+	display: block;
+	height:400px
+}
+.text{
+	color:white;
+}
+.redcolor{
+	color: rgb(237,45,58);
+}
