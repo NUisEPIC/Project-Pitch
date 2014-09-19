@@ -497,7 +497,7 @@ input, textarea{
 
 .past-logo{
 	width:100px;
-	padding-bottom:14%;
+	padding-bottom:5%;
 }
 
 .btn-round{
@@ -569,7 +569,7 @@ input, textarea{
 	/*background-color:#3FC;*/
 }
 .tumblr{
-	width:700px;
+	width:70%;
 	height:500px;
 	margin: 0 auto;
 	border:none;
