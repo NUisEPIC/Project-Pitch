@@ -272,3 +272,87 @@ a:hover{
 #ppHidden{
 	left:100px;
 }
+
+@media only screen and (max-width: 769px) {
+	
+	body {
+	background-color: #000;
+	padding-top:15%;
+	padding-bottom: 3%;
+}
+	.logotemp{
+	margin:0 auto;
+	height:25%;
+	z-index: 2;
+}	
+.navbar-fixed-bottom{
+	top:0;
+	bottom:auto;
+	position: absolute;
+}
+.navbar {
+	margin-bottom:0;
+	background-color:#232323;
+	border-color:#232323;
+	border-bottom: #232323;
+	margin:0 auto;
+	color:#FFF;
+	text-align: center!important;
+    /* Firefox */
+    -moz-transition: all 0.5s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.5s ease-in;
+    /* Opera */
+    -o-transition: all 0.5s ease-in;
+    /* Standard */
+    transition: all 0.5s ease-in;
+
+}
+.navbar-inverse{
+	border-bottom: #232323!important;
+}
+.nav{
+	width:100%;
+	color:#000;
+	text-align: center!important;
+	/*background-color:#3FC;*/
+}
+.nav li{
+	margin-left:8%;
+	width:95%;
+	text-align: center!important;
+	overflow:hidden;
+	color:#FFF;
+	/*background-color:#3FC;*/
+}
+.navbar .nav > li > a {
+    color:  #FFF;
+}
+.navbar .nav > li > a:hover {
+    color:  #FFF;
+}
+.hidden-login{
+	z-index:99;
+	position: relative;
+	opacity: 1;
+	display:none;
+	transition:all 0.5s ease-in-out;
+}
+.visible-login{
+	display: block;
+	z-index:5;
+	position: relative;
+	opacity: 1;
+	transition:all 0.8s ease-in-out;
+}
+#epicHidden{
+	 /* Firefox */
+    -moz-transition: all 0.8s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.8s ease-in;
+    /* Opera */
+    -o-transition: all 0.8s ease-in;
+    /* Standard */
+    transition: all 0.8s ease-in;
+}
+}
