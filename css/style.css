@@ -465,17 +465,16 @@ input, textarea{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top:2.5%;
 	padding-bottom:0;
 	z-index: 8;
 	position: relative;
 	overflow:hidden;	
 }
 .archive-page .archive-wrapper{
-	width:99%;
+	width:100%;
 	margin:auto;
 	overflow:hidden;
-	margin-top:1%;
+	padding-top:2.5%;
 	padding-bottom:4%;
 	border: 2px solid rgba(0,0,0,.1);
 	background-image: url('../images/bg2.jpg');
