@@ -475,7 +475,7 @@ input, textarea{
 	margin:auto;
 	overflow:hidden;
 	padding-top:2.5%;
-	padding-bottom:4%;
+	padding-bottom:3%;
 	border: 2px solid rgba(0,0,0,.1);
 	background-image: url('../images/bg2.jpg');
 }
