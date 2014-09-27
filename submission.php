@@ -3,7 +3,7 @@ $mail_to = $_POST['entry.667989067'];
 $FName = $_POST['entry.298721489'];
 $LName = $_POST['entry.451930275'];
 
-$mail_from = 'team@nuprojectpitch.com';
+$mail_from = 'projectpitchatnu@gmail.com';
 $subject = '[Project Pitch] Application Received';
 
 $body_message = 'Dear '.$FName.' '.$LName.',

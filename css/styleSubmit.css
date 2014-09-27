@@ -1,20 +1,26 @@
 body {
 	background-color: #000;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 h1,h2,h3,h4,h5,h6,p,a{
-	font-family: 'Montserrat', sans-serif;
-	font-size:25px;
-	text-align:center;
-	vertical-align:middle;
-	color:#FFF;
+	color: #FFF;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300; 
+	line-height: 1.5em;
+	vertical-align: middle;
 	text-decoration: none;
 }
+
+.accordion-toggle{
+	font-size:20px;
+}
+
 .error-message{color:#c43b1d;display:none;font-size:13px}
 
 #logo {
 	display:block;
-	height: 250px;
+	height: 180px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
@@ -29,11 +35,12 @@ h1,h2,h3,h4,h5,h6,p,a{
 .step_label{
 	text-align: right;
 	vertical-align: middle;
+	text-decoration: none;
 	padding-top: 7px;
 	padding-right: 5px;
 	font-size: 20px;
 	color: #FFF;
-font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .step2 .step_label {
@@ -41,8 +48,8 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .step_label label{
-	font-family: 'Montserrat', sans-serif;
-}
+	font-family: 'Lato', sans-serif;
+}	
 
 .step_input{
 	padding-bottom: 10px;
@@ -60,7 +67,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .panel{
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.3);
 }
 
 .panel-default>.panel-heading{
@@ -135,4 +142,18 @@ font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   background-color: #303030;
   border-color: #202020;
+}
+
+.paragraphtext{
+	font-size:20px; 
+	color:#FFF;
+	text-align: center;
+	margin: auto 0;
+}	
+
+#second{
+	margin-top:.3%;
+}
+#submitbutton{
+	text-align: center;
 }
