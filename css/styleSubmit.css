@@ -157,3 +157,21 @@ h1,h2,h3,h4,h5,h6,p,a{
 #submitbutton{
 	text-align: center;
 }
+
+.allpanels{
+	margin: 0 auto;
+	width:80%;
+}
+.pitchvideo{
+	width:50%;
+	margin: 0 auto;
+}
+
+.smaller{
+	width:90%;
+	margin: 0 auto;
+}
+.finalSubmitButton{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}

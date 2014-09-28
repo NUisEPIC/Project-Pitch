@@ -33,7 +33,8 @@
       {window.location='submission-complete.html';}"></iframe>
       <form name="Application" action="https://docs.google.com/a/u.northwestern.edu/forms/d/1GLLmRfwa1FKd5itigOddESn_2IlBxpccgUM8G9O3dJk/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
       <!--form action= "https://docs.google.com/forms/d/1L1kCKwWcLb11PzhdACp5JQ-4KSHuuND8_sbWFU2eTAk/formResponse" class="form-horizontal" method="post" id="ss-form" target="_self" onsubmit="" name="ss-form"-->
-      <div>
+      <h2> Part 1 and 2 are required. Part 3 is optional. Scroll down for submit. Thanks for applying!</h2>
+      <div class= "allpanels">
         <div class="panel-group" id="accordion">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -153,10 +154,9 @@
                       <div class="col-md-7 step_label">
                         <label>Other time commitments</label>
                       </div>
-                      <div class="col-md-12">
-                        <textarea
-                        name="entry.545631301" class="form-control" rows="8" cols="0" class="ss-q-long" id="entry_545631301" dir="auto" aria-required="true" required="">
-                        </textarea>
+                      <div = "step_input">
+                        <input type="text" name="entry.545631301" class="form-control smaller" rows="8" cols="0" class="ss-q-long" id="entry_545631301" dir="auto" aria-required="true" required="">
+                        </input>
                       </div>
                     </div>
                   </div>
@@ -258,25 +258,23 @@
                   <div class="col-md-12">
                     <h3>Submit a one-minute video of your elevator pitch of yourself. This should be a link to a youtube video.</h3>
                   </div>
-                  <div class="col-md-12">                      
-                    <div class = "col-md-12 step_input">
-                      <input type= "text" class="form-control" name="entry.561060381" value="" class="ss-q-short" id=
-                      "entry_561060381" dir="auto" aria-required="true" required="" >
-                    </div>
-                    <br/>
-                  </div>
-                  <input type="hidden" name="draftResponse" value="[] ">
-                  <input type="hidden" name="pageHistory" value="0">
-                  <div class="ss-item ss-navigate" id="submitbutton">
-                    <input type="hidden" name="draftResponse" value="[,,&quot;-2054258696907907745&quot;]">
-                    <input type="hidden" name="pageHistory" value="0">
-                    <input type="hidden" name="fbzx" value="-2054258696907907745">
-                    <input type="submit" class="btn btn-primary btn-lg" name="submit" value="Submit" id="ss-submit" >
+                  <div class="col-md-12 step_input">
+                    <input type="text" name="entry.561060381" value="" class="form-control pitchvideo" id="entry_561060381" dir="auto" aria-label="Pitch Video  " title="">
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="finalSubmitButton">
+        <input type="hidden" name="draftResponse" value="[] ">
+        <input type="hidden" name="pageHistory" value="0">
+        <div class="ss-item ss-navigate" id="submitbutton">
+          <input type="hidden" name="draftResponse" value="[,,&quot;-2054258696907907745&quot;]">
+          <input type="hidden" name="pageHistory" value="0">
+          <input type="hidden" name="fbzx" value="-2054258696907907745">
+          <input type="submit" class="btn btn-primary btn-lg" name="submit" value="Submit" id="ss-submit" >
         </div>
       </div>
       </form>
