@@ -1,0 +1,361 @@
+/* ========================================================
+   0B.TYPOGRAPHY
+=========================================================== */
+h1,h2,h3,h4,h5,h6,p,a,input, textarea{
+	font-family: 'Lato', sans-serif;
+	font-size:20px;
+	font-weight: 300; 
+	line-height: 1.5em;
+	text-align:center;
+	vertical-align:middle;
+	/*color:#FFF;*/
+	text-decoration: none;
+}
+h1{
+	font-size:55px;
+}
+h2{
+	font-size:34px;
+}
+h3{
+	font-size:22px;
+}
+h4{
+	font-size:20px;
+}
+h5{
+	font-size:18px;
+}
+h6{
+	font-size:16px;
+}
+p{
+	font-size:20px;
+}
+a:hover{
+	color:rgb(237,45,58) !important;
+	text-decoration:none;
+}
+
+/* =======================================================
+   1.BASIC COMMON STYLES
+========================================================== */
+.text-white{
+	color:rgb(255,255,255) !important;
+}
+.text-white-hover{
+	color:rgb(255,255,255) !important;
+}
+.text-white-hover:hover{
+	color:rgb(237,45,58) !important;
+}
+.text-red{
+	color:rgb(237,45,58)!important;
+}
+
+.text-black-redhover:hover{
+	color:rgb(237,45,58);
+}
+.text-bold{
+	font-weight: 400;
+}
+.text-bolder{
+	font-weight: 700;
+}
+.text-opaque{
+	opacity: 0.9;
+}
+.text-upper{
+	text-transform:uppercase;
+}
+.text-bigger{
+	font-size:40px;
+}
+.text-biggest{
+	font-size:200px;
+}
+.text-center{
+	margin:0 auto;
+	text-align: center !important;
+}
+.text-left{
+	text-align:left !important;
+	margin: 0 auto;
+}
+
+.form-control{
+	text-align: center;
+	height:40px;
+	font-size:28px;
+}
+
+.margin-top-mobile{
+	margin-top: 0px;
+}
+.margin-right-40{
+	margin-right: 40px;
+}
+.form-control-half{
+	width:80%;
+	height:40px;
+	font-size:20px;
+}
+.form-square{
+	-webkit-border-radius: 0 !important;
+	 -moz-border-radius: 0 !important;
+		  border-radius: 0 !important;
+}
+.form-rounded-2{
+	-webkit-border-radius: 2px !important;
+	 -moz-border-radius: 2px !important;
+		  border-radius: 2px !important;
+}
+.opacity-50{
+	border-opacity:0.9;
+}
+.center-box{
+	margin:0 auto;
+}
+.btn-gray{
+	background-color: #232323!important;
+	border-color:#232323!important;
+	color:#FFF;
+	text-align: middle;
+
+}
+.btn-gray:hover{
+	background-color:rgb(237,45,58)!important;
+	border-color:rgb(237,45,58)!important;
+	color:#FFF;
+}
+.btn-red{
+	background-color:rgb(237,45,58);
+	border-color:rgb(237,45,58);
+	color:#FFF;
+}
+.btn-red:hover{
+	background-color:rgb(220,220,220);
+	border-color:rgb(220,220,220);
+	color:rgb(204,51,51);
+}
+
+/* =======================================================
+   2.NAVIGATION
+========================================================== */
+.navbar-fixed-bottom{
+	top:auto;
+	bottom:0;
+	position: absolute;
+}
+.navbar {
+	margin-bottom:0;
+	background-color:#FFF;
+	border-color:#232323;
+	border-bottom: #232323!important
+	color:#000;
+	/* Firefox */
+    -moz-transition: all 0.5s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.5s ease-in;
+    /* Opera */
+    -o-transition: all 0.5s ease-in;
+    /* Standard */
+    transition: all 0.5s ease-in;
+
+}
+.navbar-inverse{
+	border-bottom: #232323!important;
+}
+.nav{
+	width:99%;
+	color:#000;
+	/*background-color:#3FC;*/
+}
+.nav li{
+	margin-left:0.1%;
+	margin-right:0.1%;
+	width:18.2%;
+	overflow:hidden;
+	color:#FFF;
+	/*backgroun#d-color:#3FC;*/
+	left: 20px;
+}
+.navbar .nav > li > a {
+    color:  #232323;
+}
+.navbar .nav > li > a:hover {
+    color:  #353535;
+}
+#exploreEpic{
+	width:22.4%;
+}
+.hidden-login{
+	z-index:99;
+	position: relative;
+	opacity: 1;
+	display:none;
+	transition:all 0.5s ease-in-out;
+}
+.visible-login{
+	display: block;
+	z-index:5;
+	position: relative;
+	opacity: 1;
+	transition:all 0.8s ease-in-out;
+}
+#epicHidden{
+	 /* Firefox */
+    -moz-transition: all 0.8s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.8s ease-in;
+    /* Opera */
+    -o-transition: all 0.8s ease-in;
+    /* Standard */
+    transition: all 0.8s ease-in;
+}
+#ppHidden{
+	left:100px;
+}
+
+/* =======================================================
+   MAIN BODY
+========================================================== */
+
+body {
+	background-color: #000;
+	padding-top:6%;
+	padding-bottom: 3%;
+}
+
+.logotemp{
+	margin:0 auto;
+	height: 50%;
+	z-index: 2;	
+}
+.text{
+	color: #FFF;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300; 
+	line-height: 1.5em;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.text h4{
+	text-align:center;
+}
+
+.btn-round{
+	background-color: #fff;
+	color:#000;
+	text-align: middle;
+	width:100px;
+	padding: 8px 14px 10px 14px;
+	border: 2px solid #000;
+	-webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border:none;
+}
+
+.underconstruction{
+	width:99%;
+	margin:auto;
+	overflow:hidden;
+	height:99%;
+	background-image: url('../images/bg2.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.archives{
+	padding-top:15%;
+	margin: auto 0;
+}
+
+@media only screen and (max-width: 769px) {
+	
+	body {
+	background-color: #000;
+	padding-top:15%;
+	padding-bottom: 3%;
+}
+	.logotemp{
+	margin:0 auto;
+	height:25%;
+	z-index: 2;
+}	
+.navbar-fixed-bottom{
+	top:0;
+	bottom:auto;
+	position: absolute;
+}
+.navbar {
+	margin-bottom:0;
+	background-color:#232323;
+	border-color:#232323;
+	border-bottom: #232323;
+	margin:0 auto;
+	color:#FFF;
+	text-align: center!important;
+    /* Firefox */
+    -moz-transition: all 0.5s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.5s ease-in;
+    /* Opera */
+    -o-transition: all 0.5s ease-in;
+    /* Standard */
+    transition: all 0.5s ease-in;
+
+}
+.navbar-inverse{
+	border-bottom: #232323!important;
+}
+.nav{
+	width:100%;
+	color:#000;
+	text-align: center!important;
+	/*background-color:#3FC;*/
+}
+.nav li{
+	margin-left:8%;
+	width:95%;
+	text-align: center!important;
+	overflow:hidden;
+	color:#FFF;
+	/*background-color:#3FC;*/
+}
+.navbar .nav > li > a {
+    color:  #FFF;
+}
+.navbar .nav > li > a:hover {
+    color:  #FFF;
+}
+.hidden-login{
+	z-index:99;
+	position: relative;
+	opacity: 1;
+	display:none;
+	transition:all 0.5s ease-in-out;
+}
+.visible-login{
+	display: block;
+	z-index:5;
+	position: relative;
+	opacity: 1;
+	transition:all 0.8s ease-in-out;
+}
+#epicHidden{
+	 /* Firefox */
+    -moz-transition: all 0.8s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.8s ease-in;
+    /* Opera */
+    -o-transition: all 0.8s ease-in;
+    /* Standard */
+    transition: all 0.8s ease-in;
+}
+}

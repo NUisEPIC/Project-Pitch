@@ -1,14 +1,10 @@
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
-
-@media only screen and (min-width: 769px) {
-
+@media only screen and (max-width: 769px) {
 /* ========================================================
-   0A.BASIC_STYLES-DESKTOP
+   0A.BASIC_STYLES-MOBILE
 =========================================================== */
 html, body {
 	height: 100%;
 }
-
 
 html, hmtl a{
 	width:100%;
@@ -24,14 +20,15 @@ body{
 	font-size:1em;
 	line-height:28px;
 }
+
 /* ========================================================
-   0B.TYPOGRAPHY-DESKTOP
+   0B.TYPOGRAPHY-MOBILE
 =========================================================== */
 h1,h2,h3,h4,h5,h6,p,a,input, textarea{
 	font-family: 'Lato', sans-serif;
-	font-size:20px;
+	font-size:18px;
 	font-weight: 300; 
-	line-height: 1.5em;
+	line-height: 1.2em;
 	text-align:center;
 	vertical-align:middle;
 	/*color:#FFF;*/
@@ -39,27 +36,31 @@ h1,h2,h3,h4,h5,h6,p,a,input, textarea{
 	text-decoration: none;
 }
 h1{
-	font-size:55px;
-}
-h2{
-	font-size:34px;
-}
-h3{
 	font-size:22px;
 }
-h4{
+h2{
 	font-size:20px;
 }
-h5{
+h3{
 	font-size:18px;
 }
-h6{
+h4{
 	font-size:16px;
 }
+h5{
+	font-size:14px;
+}
+h6{
+	font-size:12px;
+}
 p{
-	font-size:20px;
+	font-size:18px;
+}
+a{
+	text-align: center!important;
 }
 a:hover{
+
 	color:rgb(237,45,58) !important;
 	text-decoration:none;
 }
@@ -69,10 +70,10 @@ hr{
 	width:50%;
 }
 input, textarea{
-	font-size:16px !important;
+	font-size:16px!important;
 }
 /* =======================================================
-   1.BASIC COMMON STYLES-DESKTOP
+   1.BASIC COMMON STYLES-MOBILE
 ========================================================== */
 .text-white{
 	color:rgb(255,255,255) !important;
@@ -85,12 +86,6 @@ input, textarea{
 }
 .text-red{
 	color:rgb(237,45,58)!important;
-}
-.text-green-imp{
-	color: rgb(45,220,103)!important;
-}
-.text-green-imp:hover{
-	color:rgb(45,238,103)!important;
 }
 .text-black-redhover{
 	color:rgb(0,0,0);
@@ -121,11 +116,10 @@ input, textarea{
 	text-align: center !important;
 }
 .text-left{
-	text-align:left !important;
-	margin: 0 auto;
+	text-align:center;
 }
 .text-right{
-	text-align:right;
+	text-align:center;
 }
 .line-gray{
 	border-top: 1px solid #404040;
@@ -154,7 +148,6 @@ input, textarea{
 	margin-top:5%;
 }
 .form-control{
-	text-align: center;
 	height:40px;
 	font-size:28px;
 }
@@ -167,19 +160,18 @@ input, textarea{
 .padding-20{
 	margin-top: 20%;
 }
-.padding-1{
-	padding-top: 1%;
-}
+
 .padding-all-5{
 	padding:1%;
 }
-.margin-top-mobile{
-	margin-top: 0px;
-}
 .margin-right-40{
-	margin-right: 40px;
+	margin-right: 5px;
+}
+.margin-top-mobile{
+	margin-top: 15px;
 }
 .form-control-half{
+	display: inline;
 	width:80%;
 	height:40px;
 	font-size:20px;
@@ -205,7 +197,6 @@ input, textarea{
 	border-color:#232323!important;
 	color:#FFF;
 	text-align: middle;
-
 }
 .btn-gray:hover{
 	background-color:rgb(237,45,58)!important;
@@ -233,44 +224,36 @@ input, textarea{
 	height:40%;
 }
 .img-15{
-	width:15%;
-	height:15%;
-}
-.iframe-vid{
-	margin:0 auto;
-	text-align: right;
-	width: 853px;
-	height: 480px;
-	border: none;
-}
-.img-mobile{
-	width:80%;
-	height:80%;
+	width:40%;
+	height:40%;
 }
 .mobile-hidden{
-	display: block;
+	display: none;
 }
-.desktop-hidden{
-	display: hidden;
+.img-mobile{
+	width:40%;
+	height: 40%;
 }
-.text-small{
-	font-size: 18px;
+.center-img{
+	margin:0 auto;
 }
 /* =======================================================
-   2.NAVIGATION-DESKTOP
+   2.NAVIGATION-MOBILE
 ========================================================== */
 .navbar-fixed-bottom{
-	top:auto;
-	bottom:0;
+	top:0;
+	bottom:auto;
 	position: absolute;
 }
 .navbar {
 	margin-bottom:0;
-	background-color:#FFF;
+	background-color:#232323;
 	border-color:#232323;
-	border-bottom: #232323!important
-	color:#000;
-	/* Firefox */
+	border-bottom: #232323;
+	margin:0 auto;
+	color:#FFF;
+	text-align: center!important;
+    /* Firefox */
     -moz-transition: all 0.5s ease-in;
     /* WebKit */
     -webkit-transition: all 0.5s ease-in;
@@ -284,27 +267,24 @@ input, textarea{
 	border-bottom: #232323!important;
 }
 .nav{
-	width:99%;
+	width:100%;
 	color:#000;
+	text-align: center!important;
 	/*background-color:#3FC;*/
 }
 .nav li{
-	margin-left:0.1%;
-	margin-right:0.1%;
-	width:18.2%;
+	margin-left:8%;
+	width:95%;
+	text-align: center!important;
 	overflow:hidden;
 	color:#FFF;
-	/*backgroun#d-color:#3FC;*/
-	left: 20px;
+	/*background-color:#3FC;*/
 }
 .navbar .nav > li > a {
-    color:  #232323;
+    color:  #FFF;
 }
 .navbar .nav > li > a:hover {
-    color:  #353535;
-}
-#exploreEpic{
-	width:22.4%;
+    color:  #FFF;
 }
 .hidden-login{
 	z-index:99;
@@ -330,11 +310,16 @@ input, textarea{
     /* Standard */
     transition: all 0.8s ease-in;
 }
-#ppHidden{
-	left:100px;
+.iframe-vid{
+	margin:0 auto;
+	margin-top: 50px;
+	width:300px;
+	height:200px;
+	border:none;
 }
+
 /* =======================================================
-   3.HOME_PAGE-DESKTOP
+   3.HOME_PAGE-MOBILE
 ========================================================== */
 #home-page {
 	position: relative;
@@ -351,13 +336,13 @@ input, textarea{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	/*background: #000;*/
 }
 #home-page .logoImg {
-	margin-top:12%;
+	margin-top:40%;
 	margin-left:auto;
 	margin-right:auto;
-	width: 40%;
-	height:30%;
+	width: 60%;
 	z-index: 2;	
 	/*background-color:#0FF;*/
 }
@@ -369,46 +354,54 @@ input, textarea{
 	z-index: 2;	
 	/*background-color:#3df;*/
 }
+
 /* =======================================================
-   4.MISSION_PAGE-DESKTOP
+   4.MISSION_PAGE-MOBILE
 ========================================================== */
 .mission-page {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top:3%;
+	padding-top:1.5%;
 	padding-bottom:0;
 	position: relative;
 	z-index: 8;
-	overflow:hidden;
+	overflow:hidden;	
 	background-color:#FFF;
 }
-
 .mission-page .mission-wrapper {
-	width:99%;
+	width:90%;
 	margin:auto;
 	overflow:hidden;
 	margin-top:1%;
 	/*background-color:#3FC;*/
 }
-
 .ppDescription{	
 	clear: both;
 	float: left;
-	padding-left:27%;
-	padding-right:27%;
+	padding-left:3%;
+	padding-right:3%;
 	padding-top:3%;
 }
-
 .bigidea{
 	margin: 0 auto;
 	text-align:center;
 }
-
+.iframe-vid{
+	margin:0 auto;
+	width:300px;
+	height:200px;
+	border:none;
+}
+.video-box{
+	width:300px;
+	margin:0 auto;
+}
 #check-Sub{
 	display: none;
 }
+
 /* =======================================================
    5.INFO_SESSION-DESKTOP
 ========================================================== */
@@ -417,14 +410,16 @@ input, textarea{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	padding-top:1.5%;
+	padding-bottom:0%;
 	position: relative;
 	z-index: 8;
-	overflow:hidden;
+	overflow:hidden;	
 	background-color:#FFF;
 }
 
 .infosession-page .infosession-wrapper {
-	width:99%;
+	width:85%;
 	margin:auto;
 	overflow:hidden;
 	margin-top:1%;
@@ -432,49 +427,38 @@ input, textarea{
 }
 
 .calendar {
-	width: 350px;
-    height: 350px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px; 
-    border: 15px solid rgba(237,45,58,.9);
-    border-top: 80px solid rgba(237,45,58,.9);
+	width: 200px;
+    height: 200px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px; 
+    border: 10px solid rgba(237,45,58,.9);
+    border-top: 60px solid rgba(237,45,58,.9);
     background-color: white;
-    padding-top: 10px;
-}
-.calendar-right{
-	padding-right:1.5%;
-}
-.calendar-left{
-	padding-left:1.5%;
-}
-
-.float-left{
-	float: left;
-}
-.float-right{
-	float: right;
+    padding-top: 1%;
+    margin: 0 auto;
 }
 
 /* =======================================================
    6.ARCHIVES-DESKTOP
 ========================================================== */
-
 .archive-page{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-bottom:0;
-	z-index: 8;
+	padding-top:1.5%;
+	padding-bottom:0%;
 	position: relative;
+	z-index: 8;
 	overflow:hidden;	
+	background-color:#FFF;
 }
 .archive-page .archive-wrapper{
-	width:100%;
+	width:99%;
 	margin:auto;
 	overflow:hidden;
-	padding-top:2.5%;
+	margin-top:1%;
 	padding-bottom:3%;
 	border: 2px solid rgba(0,0,0,.1);
 	background-image: url('../images/bg2.jpg');
@@ -496,7 +480,7 @@ input, textarea{
 
 .past-logo{
 	width:100px;
-	padding-bottom:5%;
+	padding-bottom:2%;
 }
 
 .btn-round{
@@ -510,16 +494,15 @@ input, textarea{
     -moz-border-radius: 7px;
     border-radius: 7px;
 }
-
 /* =======================================================
-   7.PROGRAM-DESKTOP
+   7.EVENTS-MOBILE
 ========================================================== */
 .events-page {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top:3%;
+	padding-top:1.5%;
 	padding-bottom:0%;
 	position: relative;
 	z-index: 8;
@@ -527,33 +510,31 @@ input, textarea{
 	background-color:#FFF;
 }
 .events-page .events-wrapper {
-	width:99%;
+	width:85%;
 	margin:auto;
 	overflow:hidden;
-	margin-top:1%;
+	margin-top:0.5%;
 	/*background-color:#3FC;*/
 }
 .events-box{
-	padding: 20px 30px 0 20px;
+	width:90%;
 	background-color:rgba(244,244,244,1);
-	width:70%;
 	overflow-y: scroll!important;
 	overflow-x:hidden;
-	height:550px;
+	height:300px;
 	margin-right: auto;
 	margin-left: auto;
 	/*background-color: #3df;*/
 }  
-
 /* =======================================================
-   8.BLOG-DESKTOP
+   8.BLOG-MOBILE
 ========================================================== */
 .speaker-page {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top:3%;
+	padding-top:1.5%;
 	padding-bottom:0%;
 	position: relative;
 	z-index: 8;
@@ -568,34 +549,35 @@ input, textarea{
 	/*background-color:#3FC;*/
 }
 .tumblr{
-	width:70%;
+	width:700px;
 	height:500px;
-	margin: 0 auto;
 	border:none;
+	margin: 0 auto;
 }
 /* =======================================================
-   9.CONTACT-DESKTOP
+   9.CONTACT-MOBILE
 ========================================================== */
 .contact-page {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top:6%;
-	padding-bottom:4%;
+	padding-top:1.5%;
+	padding-bottom:0.5%;
 	position: relative;
 	z-index: 8;
 	overflow:hidden;	
-	background-color: #FFF;
+	background-color:#FFF;
 }
 .contact-page .contact-wrapper {
-	width:99%;
+	width:85%;
 	margin:auto;
 	overflow:hidden;
-	margin-top:1%;
+	margin-top:0.5%;
+	/*background-color:#3FC;*/
 }
 /* =======================================================
-   10.FOOTER-DESKTOP
+   10.FOOTER-MOBILE
 ========================================================== */
 .footer-pg{
 	overflow: hidden;
