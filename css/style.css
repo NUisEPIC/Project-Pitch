@@ -441,6 +441,7 @@ input, textarea{
     border-top: 80px solid rgba(237,45,58,.9);
     background-color: white;
     padding-top: 10px;
+    margin:auto;
 }
 .calendar-right{
 	padding-right:1.5%;
